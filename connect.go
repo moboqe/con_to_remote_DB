@@ -1,5 +1,5 @@
 package connect_to_db
 
-func connect() {
-
+func connect(name string) {
+	println("Hello " + name)
 }
